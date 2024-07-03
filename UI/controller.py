@@ -1,6 +1,7 @@
 import flet as ft
 
 
+
 class Controller:
     def __init__(self, view, model):
         # the view, with the graphical elements of the UI
@@ -12,6 +13,7 @@ class Controller:
         self._listCountry = []
         self._listCountry.extend(self._model.allCountry())
         self._year=None
+
         self._country=None
 
 

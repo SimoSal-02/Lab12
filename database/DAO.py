@@ -37,6 +37,7 @@ class DAO():
                 from go_retailers r
                 where r.Country=%s"""
 
+
         cursor.execute(query,(country,))
 
         for row in cursor:

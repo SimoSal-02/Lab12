@@ -28,6 +28,7 @@ class View(ft.UserControl):
 
         self.txt_container = None
 
+
     def load_interface(self):
         # title
         self._title = ft.Text("TdP 2024 - Lab12: Prova tema d'esame", color="blue", size=24)

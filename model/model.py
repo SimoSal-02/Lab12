@@ -22,6 +22,7 @@ class Model:
         self._grafo.add_nodes_from(retailers)
 
 
+
         for r1 in self._grafo.nodes:
             for r2 in self._grafo.nodes:
                 if r1.Retailer_code<r2.Retailer_code:

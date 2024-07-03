@@ -7,6 +7,7 @@ class Retailer:
     Type:str
     Country:str
 
+
     def __hash__(self):
         return hash((self.Retailer_code))
     def __str__(self):
